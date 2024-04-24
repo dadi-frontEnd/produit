@@ -16,7 +16,7 @@ $(document).ready(function () {
   $("form")
     .children("div")
     .last()
-    .append('<input min="0" type="number" id="total' + cpt + '" value="0" />');
+    .append('<input min="0" type="number" readonly id="total' + cpt + '" value="0" />');
 
   $("form")
     .children("div")
