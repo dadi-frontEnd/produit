@@ -1,2 +1,2 @@
 DEMO
-https://dadi-frontend.github.io/produit/imad.html
+https://dadi-frontend.github.io/produit/index.html
