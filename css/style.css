@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding-inline: 50px;
+  margin-block: 50px;
+}
+button {
+  padding: 7px;
+  font-size: 18px;
+  color: white;
+}
+#add {
+  background-color: blue;
+}
+.remove {
+  background-color: red;
+}
+form {
+  padding-inline: 50px;
+  margin-block: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  font-size: 24px;
+  padding: 3px;
+  margin-right: 10px;
+  width: calc(100vw * 0.25);
+}
