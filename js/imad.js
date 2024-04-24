@@ -5,16 +5,18 @@ $(document).ready(function () {
   $("form")
     .children("div")
     .last()
-    .append('<input type="number" id="product' + cpt + '" value="2000" />');
+    .append('<input min="0" type="number" id="product' + cpt + '" value="2000" />');
   $("form")
     .children("div")
     .last()
-    .append('<input type="number" id="qty' + cpt + '" value="0"class="qty" />');
+    .append(
+      '<input min="0" type="number" id="qty' + cpt + '" value="0"class="qty" />'
+    );
 
   $("form")
     .children("div")
     .last()
-    .append('<input type="number" id="total' + cpt + '" value="0" />');
+    .append('<input min="0" type="number" id="total' + cpt + '" value="0" />');
 
   $("form")
     .children("div")
@@ -27,12 +29,14 @@ $(document).ready(function () {
     $("form")
       .children("div")
       .last()
-      .append('<input type="number" id="product' + cpt + '" value="2000" />');
+      .append(
+        '<input min="0" type="number" id="product' + cpt + '" value="2000" />'
+      );
     $("form")
       .children("div")
       .last()
       .append(
-        '<input type="number" id="qty' +
+        '<input min="0" type="number" id="qty' +
           cpt +
           '" value="0" class="qty"      /> '
       );
@@ -40,7 +44,9 @@ $(document).ready(function () {
     $("form")
       .children("div")
       .last()
-      .append('<input type="number" id="total' + cpt + '" value="0" />');
+      .append(
+        '<input min="0" type="number" id="total' + cpt + '" value="0" />'
+      );
 
     $("form")
       .children("div")
